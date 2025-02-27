@@ -88,14 +88,14 @@ namespace Parabellum
                 buttonExitApp.Text = "NO. EXIT!!";
                 buttonYesOps.Text = "YES";
                 textBoxWarn.Text = "ATTENTION!\r\nTHIS SOFTWARE IS AN EMAIL WORM, THAT IS, IT CAN\r\nSPREAD THROUGH YOUR EMAIL, OVERWRITE THE\r\nBOOT SECTOR AND COMPLETELY DESTROY YOUR MACHINE!\r\n\r\nDO YOU WANT TO CONTINUE WITH EXECUTION?";
-                this.Text = "WormEmail.win32.Parabellum.exe  -  Created by CYBERWARE";
+                this.Text = "GDI-EmailWorm.Win32.Parabellum.exe  -  Created by CYBERWARE";
             }
             else
             {
                 buttonExitApp.Text = "NÃO. SAIR!!";
                 buttonYesOps.Text = "SIM";
                 textBoxWarn.Text = "ATENÇÃO!\r\nESTE SOFTWARE É UM WORM DE E-MAIL, OU SEJA,\r\nELE PODE SE ESPALHAR PELO SEU E-MAIL, E PODE\r\nSOBRESCREVER O SETOR DE BOOT ALEM DE DESTRUIR\r\nCOMPLETAMENTE SUA MÁQUINA!\r\n\r\nVOCÊ QUER CONTINUAR COM A EXECUÇÃO?";
-                this.Text = "WormEmail.win32.Parabellum.exe  -  Criado por CYBERWARE";
+                this.Text = "GDI-EmailWorm.Win32.Parabellum.exe  -  Criado por CYBERWARE";
             }
 
             isPTBR = !isPTBR;
