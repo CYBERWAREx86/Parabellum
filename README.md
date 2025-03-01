@@ -1,3 +1,4 @@
+# (BUGS FIXED)
 ## 👁️‍🗨️ INFORMATION 👁️‍🗨️
 ### Developer: CYBERWARE
 ### Language: C# & ASM x86
