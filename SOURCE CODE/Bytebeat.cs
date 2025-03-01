@@ -316,12 +316,9 @@ namespace Parabellum
 
             byte[] sbuffer = new byte[17000 * 60];
 
-            int d = 32000;
-
             for (int t = 0; t < sbuffer.Length; t++)
             {
-                sbuffer[t] = (byte)(t * t / (t + d >> ((int)PI & t >> d)) * 1);
-                d++;
+                sbuffer[t] = (byte)(t * t / (t + 50000 >> ((int)PI & t >> 1000)) * 1);
             }
 
             GCHandle handle = GCHandle.Alloc(sbuffer, GCHandleType.Pinned);
