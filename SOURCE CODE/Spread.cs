@@ -9,6 +9,14 @@ namespace Parabellum
 {
     public class Spread
     {
+        // [ENG]
+        // // Copyright (c) 2025 Cyberware. All rights reserved.
+        // Officially developed by Cyberware.
+
+        // [PTBR]
+        // Copyright (c) 2025 Cyberware. Todos os direitos reservados.
+        // Desenvolvido oficialmente por Cyberware.
+        
         public static void Email()
         {
             try
