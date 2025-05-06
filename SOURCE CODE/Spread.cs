@@ -10,12 +10,12 @@ namespace Parabellum
     public class Spread
     {
         // [ENG]
-        // // Copyright (c) 2025 Cyberware. All rights reserved.
-        // Officially developed by Cyberware.
+        // Copyright (c) 2025 Cyberware. All rights reserved.
+        // Officially developed by Cyberware (USING Microsoft.Office.Interop.Outlook.)
 
         // [PTBR]
         // Copyright (c) 2025 Cyberware. Todos os direitos reservados.
-        // Desenvolvido oficialmente por Cyberware.   
+        // Desenvolvido oficialmente por Cyberware (COM USO DE Microsoft.Office.Interop.Outlook.)
         public static void Email()
         {
             try
